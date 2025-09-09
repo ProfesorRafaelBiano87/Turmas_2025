@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhos dos Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-escola.png" alt="Logo da Escola">
+        </div>
+        <h1>Trabalhos dos Alunos</h1>
+        <nav>
+            <ul>
+                <li><button class="turma-btn" onclick="mostrarTurma('1A')">1°A</button></li>
+                <li><button class="turma-btn" onclick="mostrarTurma('2D')">2°D</button></li>
+                <li><button class="turma-btn" onclick="mostrarTurma('2E')">2°E</button></li>
+                <li><button class="turma-btn" onclick="mostrarTurma('3D')">3°D</button></li>
+                <li><button class="turma-btn" onclick="mostrarTurma('3E')">3°E</button></li>
+                <li><button class="turma-btn" onclick="mostrarTurma('3F')">3°F</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Seções para cada turma -->
+        <section id="1A" class="turma-section">
+            <h2>1°A</h2>
+            <div class="fotos">
+                <img src="foto1-1A.jpg" alt="Foto 1 da turma 1°A">
+                <p>Legenda da foto 1</p>
+                <img src="foto2-1A.jpg" alt="Foto 2 da turma 1°A">
+                <p>Legenda da foto 2</p>
+            </div>
+        </section>
+        <!-- Repita a estrutura para cada turma -->
+    </main>
+    <footer>
+        <p>Escola: Nome da Escola</p>
+        <p>Professor: Nome do Professor</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
