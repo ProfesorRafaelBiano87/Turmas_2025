@@ -1,5 +1,9 @@
 function mostrarTurma(turma) {
-    // Código para mostrar a turma selecionada
-    console.log(`Mostrando turma ${turma}`);
-    // Você pode adicionar mais código aqui para mostrar a turma selecionada
-}
+    // Esconder todas as turmas
+    var turmas = document.getElementsByClassName("turma-section");
+    for (var i = 0; i < turmas.length; i++) {
+        turmas[i].style.display = "none";
+    }
+
+    // Mostrar a turma selecionada
+    document.getElementById(turma).style.display = "block";
